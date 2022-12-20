@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    margin: 1% 5% 5% 5%;
+}
+
+table,
+td{
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+#second td{
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#firstline{
+    padding: 15px 190px;
+    margin-left: -48px;
+    background-color: darkgrey;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 2px #000;
+}
+#secondlineleft{
+    padding: 15px 50px;
+    background-color: darkgrey;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 2px #000;
+    float: right;
+}
+#secondlineright{
+    float: left;
+    padding: 15px 50px;
+    background-color: darkgrey;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 2px #000;
+}
+#thirdline{
+    padding: 15px 55px;
+    float: right;
+    background-color: darkgrey;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 2px #000;
+}
+#thirdline1{
+    padding: 15px 45px;
+    float: right;
+    background-color: #ffd600;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 2px #000;
+}
+#thirdline2{
+    padding: 15px 45px;
+    float: right;
+    background-color: #aad4e7;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 2px #000;
+}
+#thirdline3{
+    padding: 15px 45px;
+    float: right;
+    background-color: #fdb0fd;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 2px #000;
+}
+#thirdline4{
+    padding: 15px 45px;
+    float: right;
+    background-color: #a3a2a2;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 2px #000;
+}
+#thirdline5{
+    padding: 15px 45px;
+    float: right;
+    background-color: #f0f0f0;
+    border: 2px solid #fff;
+    box-shadow: 2px 1px 2px #000;
+}
+.horizontal_line {
+    background-color: #fff;
+    width: 90%;
+    height: 5px;
+    margin-left: 80px;
+    border-top: 2px solid black;
+    line-height: 80%;
+}
+.horizontal_line2{
+    background-color: #fff;
+    width: 30%;
+    height: 5px;
+    margin-left: 33%;
+    border-top: 2px solid black;
+    line-height: 80%;
+}
+
